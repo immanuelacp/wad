@@ -6,9 +6,9 @@
     <section class="wthree-row w3-about  py-5">
         <div class="container py-md-4 mt-md-3">
             <h3 class="heading-agileinfo">The <span>Villa</span></h3>
-            <div class="card-deck mt-md-5 pt-5 row">
+            <div class="card-deck mt-md-5 pt-5">
                 @foreach($villas as $villa)
-                    <div class="col-md-4 mb-5">
+                    <div class="col-md-4 mb-4">
                         <div class="card">
                             <img src="{{asset('storage/'.$villa->photo)}}" class="img-fluid" alt="Card image cap">
                             <div class="card-body w3ls-card">
@@ -18,7 +18,7 @@
                                 <p class="card-text mb-3">{{$villa->desc}}</p>
 
                                 <div class="ab_button">
-                                    <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/show"
+                                    <a class="btn btn-primary btn-lg hvr-underline-from-left" href="/login"
                                        role="button">Booking</a>
                                 </div>
                             </div>

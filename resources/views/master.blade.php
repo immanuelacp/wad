@@ -136,10 +136,6 @@
                             <i class="fa fa-angle-double-right"></i>About</a>
                     </li>
                     <li>
-                        <a href="/gallery">
-                            <i class="fa fa-angle-double-right"></i>Gallery</a>
-                    </li>
-                    <li>
                         <a href="/contact">
                             <i class="fa fa-angle-double-right"></i>Contact</a>
                     </li>

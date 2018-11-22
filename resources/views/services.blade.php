@@ -55,39 +55,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </section>
 
-<!-- //services -->
-<!-- news -->
-	<section class="wthree-row1 w3-about py-5">
-		<div class="container py-md-4 mt-md-3">
-			<h3 class="heading-agileinfo">Services  <span>Overview</span></h3>
-			<span class="w3-line black"></span>
-			<div class="card-deck mt-md-5 pt-5">
-				  <div class="card">
-					<img src="images/g7.jpg" class="img-fluid" alt="Card image cap">
-					<div class="card-body w3ls-card">
-					  <h5 class="card-title">Buying a home</h5>
-					  <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-					</div>
-					
-				  </div>
-				  <div class="card">
-					<img src="images/g6.jpg" class="img-fluid" alt="Card image cap">
-					<div class="card-body w3ls-card">
-					  <h5 class="card-title">Refinancing</h5>
-					   <p class="card-text mb-3 ">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-					</div>
-					
-				  </div>
-				  <div class="card">
-					<img src="images/g8.jpg" class="img-fluid" alt="Card image cap">
-					<div class="card-body w3ls-card">
-					  <h5 class="card-title">Credit Service</h5>
-					   <p class="card-text mb-3">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-					</div>
-					
-				  </div>
-				</div>
-            </div>
-        </section>
-<!-- //news -->
 @endsection
