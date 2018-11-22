@@ -30,7 +30,7 @@
                     Price
                     <input type="number" name="price" class="form-control" value="{{$villa->price}}">
                     Desc
-                    <textarea name="desc" class="form-control" value="{{$villa->desc}}"></textarea>
+                    <textarea name="desc" class="form-control" >{{$villa->desc}}</textarea>
 
                     <br>
                     <input type="submit" class="btn btn-warning" value="Update">

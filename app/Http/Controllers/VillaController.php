@@ -90,10 +90,10 @@ class VillaController extends Controller
     {
         $villa = Villa::findOrFail($id);
         $datas = $request->all();
-        $img =$request->hasFile('photo');
-        if ($img) {
+        if ($request->hasFile('photo')) {
+            $img = $request->file('photo');
             $filename = uniqid() . '.' . $img->getClientOriginalExtension();
-            $file = $request->file('photo')->store('villa',$img,$filename);
+            $file = Storage::disk('public')->putFileAs('villa', $img, $filename);
             $datas['photo'] = $file;
             Storage::delete('public/' . $villa->photo);
         }

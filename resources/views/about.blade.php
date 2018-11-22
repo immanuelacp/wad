@@ -24,10 +24,10 @@
         <!-- team -->
         <section class="team py-md-5">
             <div class="container py-4 mt-2">
-                <h3 class="heading-agileinfo">Our <span>Agents</span></h3>
+                <h3 class="heading-agileinfo">Our <span>Team</span></h3>
                 <div class="row inner-sec-w3layouts-agileinfo mt-md-5 pt-3">
                     <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
-                        <img src="images/manal.jpg" class="img-responsive" alt="">
+                        <img src="images/manal.jpg" class="img-responsive" alt="" height="98%">
                         <div class="team-info">
                             <div class="caption">
                                 <h4>Immanuela Christiantari</h4>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
-                        <img src="images/te3.jpg" class="img-responsive" alt="">
+                        <img src="images/dans.jpg" class="img-responsive" alt="" height="98%">
                         <div class="team-info">
                             <div class="caption">
                                 <h4>Win Dany Novan</h4>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-left">
-                        <img src="images/te2.jpg" class="img-responsive" alt="">
+                        <img src="images/krispi.jpg" class="img-responsive" alt="" height="98%">
                         <div class="team-info">
                             <div class="caption">
                                 <h4>Krisfian Adji</h4>
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 team-grids aos-init" data-aos="flip-right">
-                        <img src="images/te4.jpg" class="img-responsive" alt="">
+                        <img src="images/rian.jpg" class="img-responsive" alt="" height="98%">
                         <div class="team-info">
                             <div class="caption">
                                 <h4>Febriansyah Nasution </h4>
