@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Book;
 use Illuminate\Http\Request;
-
+use Auth;
 class BookController extends Controller
 {
     /**
@@ -14,7 +14,16 @@ class BookController extends Controller
      */
     public function index()
     {
-        //
+        return view('book.index',[
+          'books' => Book::where('user_id', Auth::user()->id)->get()
+        ]);
+    }
+
+    public function history()
+    {
+      return view('book.admin',[
+        'books' => Book::all()
+      ]);
     }
 
     /**
@@ -35,7 +44,16 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if (Auth::user()->level == 'Admin'){
+            return redirect('/');
+        }
+        Book::create([
+          'user_id' => Auth::user()->id,
+          'villa_id' => $request->villa_id,
+          'start_date' => $request->start_date,
+          'end_date' => $request->end_date,
+        ]);
+        return redirect(route('book.index'));
     }
 
     /**

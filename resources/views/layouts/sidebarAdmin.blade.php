@@ -1,8 +1,13 @@
 <div class="card mt-4">
     <div class="card-body">
         <nav class="nav flex-column">
-            <a class="nav-link" href="{{route('villa.index')}}">Villa</a>
-            <a class="nav-link" href="#">History</a>
+            @if (Auth::user()->level == 'Admin')
+              <a class="nav-link" href="{{route('villa.index')}}">Villa</a>
+              <a class="nav-link" href="{{route('book.history')}}">History</a>
+              @else
+              <a class="nav-link" href="{{route('book.index')}}">History</a>
+            @endif
+
         </nav>
     </div>
 </div>

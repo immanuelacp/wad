@@ -42,4 +42,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('villa', 'VillaController');
-Route::resource('book', 'BookController');
+Route::resource('book', 'BookController')->middleware('auth');
+Route::get('history', 'BookController@history')->middleware('auth')->name('book.history');
