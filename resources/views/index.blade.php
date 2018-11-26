@@ -5,7 +5,7 @@
 
     <section class="wthree-row w3-about  py-5">
         <div class="container py-md-4 mt-md-3">
-            <h3 class="heading-agileinfo">The <span>Villa</span></h3>
+            <h3 class="heading-agileinfo" style="font-family: 'Comfortaa Light'">The <span>Villa</span></h3>
             <div class="card-deck mt-md-5 pt-5">
                 @foreach($villas as $villa)
                     <div class="col-md-4 mb-4">
@@ -28,7 +28,7 @@
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Booking</h5>
                           </div>
                           <div class="modal-body">
                             <form action="{{route('book.store')}}" method="POST">
@@ -43,7 +43,7 @@
                                 <input type="date" name="end_date" class="form-control" id="formGroupExampleInput2" placeholder="End Date">
                               </fieldset>
                               <fieldset class="form-group">
-                                <button type="submit" class="btn btn-success" style="width: 100%">BOOK</button>
+                                <button type="submit" class="btn btn-warning" style="width: 100%">BOOK</button>
                               </fieldset>
                             </form>
                           </div>

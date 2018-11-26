@@ -2,7 +2,7 @@
 <html lang="zxx">
 
 <head>
-    <title>D'Villa</title>
+    <title>D'Villa - Find Your Most Comfortable Villa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8"/>
     <meta name="keywords" content="Vicarage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
@@ -35,7 +35,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
             <h1>
-                <a class="navbar-brand text-white" href="/">
+                <a class="navbar-brand text-white" href="/" style="font-family: 'Comfortaa Light'">
                     D'Villa
                 </a>
             </h1>
@@ -47,21 +47,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-lg-auto text-center">
                     <li class="nav-item mr-3 mt-lg-0 mt-3">
-                        <a class="nav-link" href="/">Home
-                        </a>
+                        <a class="nav-link" href="/" style="font-family: 'Comfortaa Light'">Home</a>
                     </li>
                     <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                        <a class="nav-link" href="/services">Services</a>
+                        <a class="nav-link" href="/services" style="font-family: 'Comfortaa Light'">Services</a>
                     </li>
                     <li class="nav-item  mr-3 mt-lg-0 mt-3">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="/about" style="font-family: 'Comfortaa Light'">About</a>
                     </li>
                     <li class="nav-item mr-3 mt-lg-0 mt-3">
-                        <a class="nav-link" href="/contact">Contact</a>
+                        <a class="nav-link" href="/contact" style="font-family: 'Comfortaa Light'">Contact</a>
                     </li>
                     @guest
                         <li class="nav-item">
-                            <a href="{{route('login')}}" class="nav-link">
+                            <a href="{{route('login')}}" class="nav-link" style="font-family: 'Comfortaa Light'">
                                 Login
                             </a>
                         </li>
@@ -69,19 +68,19 @@
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                                data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
+                               aria-haspopup="true" aria-expanded="false" style="font-family: 'Comfortaa Light'">
                                 {{ Auth::user()->name }} <span class="caret"></span>
                             </a>
 
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a href="{{ route('home') }}" class="dropdown-item">Dashboard</a>
+                                <a href="{{ route('home') }}" class="dropdown-item" style="font-family: 'Comfortaa Light'">Dashboard</a>
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                      style="display: none;">
+                                      style="display: none; font-family: 'Comfortaa Light';" >
                                     @csrf
                                 </form>
                             </div>
@@ -95,8 +94,8 @@
     <div class="container">
         <!-- banner-text -->
         <div class="banner-text">
-            <div class="slider-info">
-                <h3>Find a Villa to Suit Your Lifestyle</h3>
+            <div class="slider-info" >
+                <h3 style="font-family: 'Comfortaa Light'">Find Your Most Comfortable Villa</h3>
 
             </div>
         </div>

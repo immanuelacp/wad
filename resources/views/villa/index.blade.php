@@ -3,9 +3,9 @@
 
 <div class="card">
     <div class="card-header">
-        <h1>Villa</h1>
+        <h1 style="font-family: 'Comfortaa Light'">Villa</h1>
     </div>
-    <div class="card-body">
+    <div class="card-body" >
         <div class="row">
             <div class="col-md-8">
                 <form action="{{route('villa.index')}}">

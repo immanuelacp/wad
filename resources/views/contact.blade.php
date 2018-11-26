@@ -6,7 +6,7 @@
         <h3 class="agile-title text-uppercase"></h3>
         <span class="w3-line"></span>
         <div class="w3ls-titles text-center mb-5">
-            <h3 class="heading-agileinfo">Contact  <span>Us</span></h3>
+            <h3 class="heading-agileinfo" style="font-family: 'Comfortaa Light'">Contact  <span>Us</span></h3>
         </div>
         <div class="row py-md-5 py-sm-3">
             <div class="col-md-6">
@@ -33,7 +33,7 @@
                 </form>
             </div>
             <div class="col-md-6 map mt-md-0 mt-5">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805184.6315353655!2d144.49269953060633!3d-37.971237044864175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne+VIC%2C+Australia!5e0!3m2!1sen!2sin!4v1532474074705"  allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253497.13516734913!2d107.50307079265457!3d-6.90342901505421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C+Kota+Bandung%2C+Jawa+Barat!5e0!3m2!1sid!2sid!4v1543209724846" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>

@@ -1,4 +1,4 @@
-<div class="card mt-4">
+<div class="card mt-4" style="font-family: 'Comfortaa'">
     <div class="card-body">
         <nav class="nav flex-column">
             @if (Auth::user()->level == 'Admin')
