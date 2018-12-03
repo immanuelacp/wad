@@ -54,12 +54,13 @@
                             <tr>
                                 <td>{{$villa->name}}</td>
                                 <td>
-                                    <a href="{{route('villa.restore', ['id'=> $villa->id])}}" class="btn btn-success btn-sm">Restore</a>
+                                    <a href="{{route('villa.restore', ['id'=> $villa->id])}}" class="btn btn-success btn-sm"><i class="fas fa-window-restore"></i></a>
                                     <form class="d-inline" action="{{route('villa.delete-permanent',['id'=> $villa->id])}}" method="POST"
                                           onsubmit="return confirm('Delete this villa permanently?')">
                                         @csrf
                                         @method('delete')
-                                        <input type="submit" class="btn btn-danger btn-sm" value="Delete">
+                                        {{--<input type="submit" class="btn btn-danger btn-sm" value="Delete">--}}
+                                        <button class="btn btn-sm btn-danger" type="submit"  ><i class="fas fa-trash"></i></button>
                                     </form>
                                 </td>
                             </tr>

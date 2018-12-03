@@ -17,6 +17,7 @@
         }
     </script>
     <!-- Custom Theme files -->
+
     <link href="{{asset('css/bootstrap.css')}}" type="text/css" rel="stylesheet" media="all">
     <link href="{{asset('css/style.css')}}" type="text/css" rel="stylesheet" media="all">
     <!-- font-awesome icons -->
@@ -33,8 +34,9 @@
 <div class="banner">
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-gradient-secondary sticky-top">
             <h1>
+                <img src="images/placeholder.png" alt="" width="50px" height="50px" align="center">
                 <a class="navbar-brand text-white" href="/" style="font-family: 'Comfortaa Light'">
                     D'Villa
                 </a>

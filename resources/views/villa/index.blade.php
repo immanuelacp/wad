@@ -62,12 +62,13 @@
                         <tr>
                             <td>{{$villa->name}}</td>
                             <td>
-                                <a href="{{route('villa.edit', ['id'=> $villa->id])}}" class="btn btn-info btn-sm">Edit</a>
+                                <a href="{{route('villa.edit', ['id'=> $villa->id])}}" class="btn btn-info btn-sm" ><i class="fas fa-edit text-white" ></i></a>
                                 <form class="d-inline" action="{{route('villa.destroy',['id'=> $villa->id])}}" method="POST"
                                     onsubmit="return confirm('Move Category to trash?')">
                                     @csrf
                                     @method('delete')
-                                    <input type="submit" class="btn btn-danger btn-sm" value="Trash">
+                                    {{--<span class="fas fa-trash-alt"><input type="submit" class="btn btn-danger btn-sm"></span>--}}
+                                    <button class="btn btn-sm btn-danger" type="submit"  ><i class="fas fa-trash-alt"></i></button>
                                 </form>
                             </td>
                         </tr>
